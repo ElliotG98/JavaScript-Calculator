@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  -webkit-touch-callout: none; 
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+h1{
+  text-align: center;
+  margin-top: 50px;
+}
+
+#container{
+  margin-left: calc(50% - 100px);
+}
+
+.btn {
+  background-color: silver;
+  color: black;
+  width: 25px;
+  height: 45px;
+  border: 1px solid gray;
+  text-align: center;
+  cursor: pointer;
+  font-size: 32px;
+  font-weight: 100;
+  padding-top: 3px;
+}
+
+.btn:hover {
+  background-color: orange;
+}
+
+.row{
+  display: table;
+  table-layout: fixed;
+  width: 200px;
+}
+
+.column{
+  display: table-cell;
+}
+
+#zero, #clear{
+  width: 51px;
+}
+
+#display {
+  height: 80px;
+  color: white;
+  text-align: right;
+  border: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: gray;
+  font-size: 50px;
+  background-color: gray;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 12px;
+  border-radius: 7px 7px 0 0;
+}
+
+.operator {
+  background-color: orange;
+  font-color: white;
+}
+
+#equals {
+  border-radius: 0 0 7px 0;
+}
